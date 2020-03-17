@@ -1,0 +1,35 @@
+
+html {
+    box-sizing: border-box;
+    font-family: Ubuntu, New York, San Francisco, Calibri, Arial, sans-serif;
+    font-size: 16px;
+    height: 100%;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-item: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+img, svg {
+    max-width: 100%;
+}
+
+svg {
+    width: 800px;
+}
